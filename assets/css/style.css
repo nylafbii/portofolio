@@ -1,0 +1,100 @@
+.header {
+    padding: 30px 50px;
+}
+
+.bg-green {
+    background-color: rgb(99, 228, 99);
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.hero {
+    display: flex;
+    gap: 30px;
+    padding: 100px 150px;
+    justify-content: center;
+    background-color: pink;
+}
+
+.hero-picture img {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: right;
+}
+
+.hero-desc button {
+    padding: 10px 20px;
+    background-color: #da8484;
+    color: white;
+    border-radius: 20px;
+    border: none; 
+}
+
+.about {
+    margin: 100px;
+    background-color: plum;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.about {
+    margin-top: 50px;
+}
+
+.about {
+    margin-bottom: 50px;
+    border: 4px solid black;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.box{
+    border-radius: 15px;
+    padding: 20px;
+    width: 250px;
+    font-weight: bold;
+    background-color: rgb(228, 90, 154);
+}
+
+.motto-box {
+    margin-top: 40px;
+    border: 4px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    width: 80%;
+    max-width: 580px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: plum;
+}
+
+/*Untuk responsive di hp */
+@media screen and (max-width: 900px) {
+    .hero {
+        display: block;
+        text-align: center;
+    }
+    .about {
+        margin: 50px;
+        display: block;
+        text-align: center;
+    }
+    .info-boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+    .motto-box {
+        display: block;
+        text-align: center;
+    }
+
+}
